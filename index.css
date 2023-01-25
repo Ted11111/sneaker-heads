@@ -25,3 +25,49 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+body {
+    background-color: rgb(243, 183, 106);
+    margin-bottom: 20px;
+}
+
+#Title {
+    background-image: linear-gradient(red,yellow);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 5px 5px black;
+    text-shadow: 1px 1px black;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    padding-bottom: 10px;
+    padding: 10px 20px 10px;
+    display: inline-block;
+}
+
+.image {
+    border: 0.1em solid black;
+    border-radius: 1%;
+}
+
+#row1 {
+    padding-right: 30rem;
+}
+
+#row2 {
+    padding-left: 30rem;
+}
+
+p {
+    background-color: black;
+    color: white;
+    background: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: block
+}
